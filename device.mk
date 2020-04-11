@@ -171,5 +171,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor-overlay/etc/qdcm_calib_data_nt36672c_tianma_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/qdcm_calib_data_nt36672c_tianma_fhd_video_mode_dsi_panel.xml \
     $(LOCAL_PATH)/vendor-overlay/lib/rfsa/adsp/tas25xx_TI_0.bin:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/lib/rfsa/adsp/tas25xx_TI_0.bin
 
-PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+# WiFi Display
+PRODUCT_PACKAGES += \
+    libdisplayconfig \
+    libnl \
+    libqdMetaData \
+    libqdMetaData.system
 
+PRODUCT_BOOT_JARS += \
+    WfdCommon
+
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
