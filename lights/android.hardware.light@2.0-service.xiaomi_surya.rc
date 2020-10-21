@@ -7,12 +7,10 @@ on boot
 
     # Real notification light
     chown system system /sys/class/leds/white/brightness
-
-    chown system system /sys/class/leds/white/breath
+    chown system system /sys/class/leds/white/max_brightness
     chown system system /sys/class/leds/white/delay_off
     chown system system /sys/class/leds/white/delay_on
 
-    chmod 660 /sys/class/leds/white/breath
     chmod 660 /sys/class/leds/white/delay_off
     chmod 660 /sys/class/leds/white/delay_on
 
