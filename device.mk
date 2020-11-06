@@ -89,7 +89,8 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     init.mi_thermald.rc \
-    init.device.rc
+    init.device.rc \
+    init.qcom.rc
 
 # Keylayout
 PRODUCT_COPY_FILES += \
