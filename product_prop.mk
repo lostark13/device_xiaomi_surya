@@ -17,6 +17,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     vendor.camera.aux.packagelist=org.lineageos.snap,net.sourceforge.opencamera,org.codeaurora.snapcam \
     media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
+# Graphics
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
+
 # Recorder
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.audio.sdk.fluencetype=fluence \
