@@ -14,11 +14,6 @@ RR_BUILDTYPE := Official
 TARGET_FACE_UNLOCK_SUPPORTED := true
 BUILD_RR_WALLPAPERS:= true
 
-#Gapps
-$(call inherit-product-if-exists, vendor/gapps/config.mk)
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_STOCK_ARCORE := true
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := rr_surya
 PRODUCT_DEVICE := surya
