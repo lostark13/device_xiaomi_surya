@@ -767,6 +767,12 @@
         <item>7,1</item>
         <item>9,1</item>
     </string-array>
+    
+    <!-- Smart charging -->
+    <bool name="config_smartChargingAvailable">true</bool>
+    <string name="config_smartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
+    <string name="config_smartChargingSuspendValue" translatable="false">1</string>
+    <string name="config_smartChargingResumeValue" translatable="false">0</string>
 
     <!-- SysInfo -->
     <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
