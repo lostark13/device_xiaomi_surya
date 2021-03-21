@@ -1,20 +1,20 @@
 [
     {
         "remote":       "github",
-        "repository":   "mahajant99/vendor_xiaomi_surya",
+        "repository":   "lostark13/vendor_xiaomi_surya",
         "target_path":  "vendor/xiaomi/surya",
-        "branch":     "eleven"
+        "branch":       "eleven"
     },
     {
         "remote":       "github",
-        "repository":   "mahajant99/kernel_xiaomi_surya",
+        "repository":   "lostark13/kernel_xiaomi_surya",
         "target_path":  "kernel/xiaomi/surya",
-        "branch":     "eleven"
+        "branch":       "eleven"
     },
     {
         "remote":       "github",
         "repository":   "LineageOS/android_packages_resources_devicesettings",
         "target_path":  "packages/resources/devicesettings",
-        "branch":     "lineage-18.1"
+        "branch":       "lineage-18.1"
     }
 ]
