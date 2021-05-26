@@ -23,4 +23,7 @@
   
     <!-- FPSInfoService FPS node file path -->
     <string name="config_fpsInfoSysNode" translatable="false">/sys/class/drm/sde-crtc-0/measured_fps</string>
+
+    <!-- Whether global actions should show an informational message about changes in S -->
+    <bool name="global_actions_show_change_info">true</bool>
 </resources>
