@@ -29,7 +29,7 @@ allow xiaomiparts_app {
 }:file rw_file_perms;
 
 allow xiaomiparts_app sysfs_thermal:file w_file_perms;
-
+allow xiaomiparts_app proc_nvt_feature:file rw_file_perms;
 # Allow xiaomi_settings to read and write to sysfs_vibrator
 allow xiaomiparts_app sysfs_vibrator:dir search;
 allow xiaomiparts_app sysfs_vibrator:file rw_file_perms;
