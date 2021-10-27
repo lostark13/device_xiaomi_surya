@@ -521,4 +521,10 @@
     -->
     <integer name="config_keyChordPowerVolumeUp">1</integer>
 
+    <!-- The list of packages to automatically opt out of refresh rates higher than 60hz because
+         of known compatibility issues. -->
+    <string-array name="config_highRefreshRateBlacklist">
+        <item>"com.netflix.mediaclient"</item>
+    </string-array>
+
 </resources>
