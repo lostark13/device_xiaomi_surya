@@ -28,4 +28,9 @@
 
     <!-- the padding on the statusbar for rounded corners -->
     <dimen name="rounded_corner_content_padding">7dp</dimen>
+
+    <!-- Location of physical power button -->
+    <dimen name="physical_power_button_center_screen_location_y">950px</dimen>
+    <dimen name="physical_fingerprint_sensor_center_screen_location_y">950px</dimen>
+
 </resources>
