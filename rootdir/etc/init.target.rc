@@ -94,6 +94,7 @@ on post-fs-data
 on boot
     start rmt_storage
     start rfs_access
+    start mi_thermald
 
     chown system system /sys/devices/platform/kcal_ctrl.0/kcal
     chown system system /sys/devices/platform/kcal_ctrl.0/kcal_enable
