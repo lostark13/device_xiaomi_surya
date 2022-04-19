@@ -34,6 +34,13 @@
         <item>co.aospa.keyhandler.KeyHandler</item>
     </string-array>
 
+    <!-- Does the device have a notification led -->
+    <bool name="config_hasNotificationLed">true</bool>
+
+    <!-- Do the battery/notification LEDs support pulsing?
+         Used to decide if we show pulse settings -->
+    <bool name="config_ledCanPulse">true</bool>
+
     <!-- Whether device has fingerprint on power button -->
     <bool name="config_powerButtonFingerprint">true</bool>
 
