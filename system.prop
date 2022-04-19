@@ -25,10 +25,6 @@ persist.mm.enable.prefetch=true
 # Netflix custom property
 ro.netflix.bsp_rev=Q6150-17263-1
 
-# Octavi
-ro.octavi.maintainer=Tushar
-persist.sys.binary_xml=false
-
 # Perfetto
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 
