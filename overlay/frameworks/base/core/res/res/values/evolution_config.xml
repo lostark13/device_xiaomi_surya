@@ -47,25 +47,4 @@
     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
     <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/bms/fastcharge_mode</string>
 
-    <!-- Display mode remapping table.
-         If the mode names returned by the backend do not match
-         the predefined and translated strings in the Settings
-         app, they can be remapped here. The format is
-         "oldname:newname", one per entry. -->
-    <string-array name="config_displayModeMappings" translatable="false">
-    <item>none:standard</item>
-    <item>smart_MC:Smart MC</item>
-    <item>hal_srgb:srgb</item>
-    <item>GM_1:GM 1</item>
-    <item>GM_2:GM 2</item>
-    <item>GM_3:GM 3</item>
-    <item>smart_eyedefault:Smart Eye</item>
-    <item>video1:Video 1</item>
-    <item>video2:Video 2</item>
-    <item>video3:Video 3</item>
-    </string-array>
-
-    <!-- Should we filter any display modes which are unmapped? -->
-    <bool name="config_filterDisplayModes">true</bool>
-
 </resources>
