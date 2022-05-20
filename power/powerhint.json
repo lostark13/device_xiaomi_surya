@@ -117,7 +117,7 @@
       "Path": "/sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/min_freq",
       "Values": [
         "14236",
-        "7110",
+        "9155",
         "2288"
       ],
       "ResetOnInit": true
@@ -127,7 +127,7 @@
       "Path": "/sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/min_freq",
       "Values": [
         "6881",
-        "5161",
+        "2597",
         "762"
       ],
       "ResetOnInit": true
@@ -240,13 +240,13 @@
       "PowerHint": "INTERACTION",
       "Node": "CPUBWMinFreq",
       "Duration": 0,
-      "Value": "7110"
+      "Value": "9155"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "LLCCBWMinFreq",
       "Duration": 0,
-      "Value": "5161"
+      "Value": "2597"
     },
     {
       "PowerHint": "LAUNCH",
