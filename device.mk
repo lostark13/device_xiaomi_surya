@@ -500,11 +500,3 @@ PRODUCT_COPY_FILES += \
 
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 28 29 30
-
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libavservices_minijail_32 \
-    libdisplayconfig.qti \
-    libnl \
-    libqdMetaData \
-    libwfdaac_vendor
