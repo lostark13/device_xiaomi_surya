@@ -102,6 +102,7 @@ vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
 camera.disable_zsl_mode=1
+persist.vendor.camera.privapp.list=com.android.camera
 
 # Data modules
 persist.vendor.data.iwlan.enable=true
