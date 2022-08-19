@@ -112,7 +112,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor
 
 PRODUCT_PACKAGES += \
-    libshim_megvii
+    libshim_megvii \
+    libpiex_shim
 
 PRODUCT_PACKAGES += \
     Snap
