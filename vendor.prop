@@ -103,6 +103,9 @@ vendor.qcom.bluetooth.soc=cherokee
 camera.disable_zsl_mode=1
 persist.vendor.camera.privapp.list=com.android.camera
 
+# Dalvik
+dalvik.vm.systemuicompilerfilter=speed
+
 # Data modules
 persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
