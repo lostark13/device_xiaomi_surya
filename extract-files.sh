@@ -62,9 +62,6 @@ function blob_fixup() {
             ;;
         vendor/lib64/camera/components/com.qti.node.watermark.so)
             "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
-            ;;			
-        system_ext/lib64/lib-imsvideocodec.so )
-            "${PATCHELF}" --add-needed "lib-imsvt.so" "${2}"
             ;;
     esac
 }
