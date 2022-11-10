@@ -96,6 +96,8 @@ void vendor_load_properties() {
         if (hwname == "surya") {
             model = "M2007J20CG";
             device = "surya";
+            fingerprint = "POCO/surya_global/surya:11/RKQ1.200826.002/V12.5.4.0.RJGMIXM:user/release-keys";
+            description = "surya_global-user 11 RKQ1.200826.002 V12.5.4.0.RJGMIXM release-keys";           
         } else if (hwname == "karna") {
             model = "M2007J20CI";
             device = "karna";
