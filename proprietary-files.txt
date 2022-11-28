@@ -35,7 +35,7 @@ vendor/lib/libadsp_default_listener.so
 vendor/lib/libadsprpc.so
 vendor/lib/libcdsp_default_listener.so
 
-# Audio ADSP modules
+# ADSP modules
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
@@ -52,6 +52,7 @@ vendor/lib/rfsa/adsp/libfastcvadsp.so
 vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
 vendor/lib/rfsa/adsp/libhexagon_nn_skel_secondary.so
 vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
+vendor/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
@@ -181,6 +182,8 @@ vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libsdk_sr.so
 vendor/lib64/libst_sr_models.so
 vendor/lib64/libSNPE.so
+vendor/lib64/libsnpe_dsp_domains_v2.so
+vendor/lib64/libsnpe_dsp_domains_v2_system.so
 vendor/lib64/libSuperSensorCPU.so
 vendor/lib64/libSuperSensor.so
 vendor/lib64/libswregistrationalgo.so
