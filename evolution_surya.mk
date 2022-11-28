@@ -24,6 +24,9 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 # Inherit some common Evolution stuff.
 $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
+# Miui Camera
+$(call inherit-product, vendor/miuicamera/config.mk)
+
 PRODUCT_SOONG_NAMESPACES += \
 $(LOCAL_PATH) \
 hardware/qcom-caf/sm8150
