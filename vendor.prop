@@ -99,6 +99,11 @@ vendor.qcom.bluetooth.soc=cherokee
 camera.disable_zsl_mode=1
 persist.vendor.camera.privapp.list=com.android.camera
 
+# Crypto
+ro.crypto.dm_default_key.options_format.version=2
+ro.crypto.volume.metadata.method=dm-default-key
+ro.crypto.volume.options=::v2
+
 # Dalvik
 dalvik.vm.systemuicompilerfilter=speed
 
