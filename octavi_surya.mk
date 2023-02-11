@@ -21,15 +21,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from surya device
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
-# Inherit some common Evolution stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common Octavi stuff.
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+
+WITH_GMS := true
+OCTAVI_BUILD_TYPE := Official
+OCTAVI_MAINTAINER := Tushar Bharti
 
 # Miui Camera
 $(call inherit-product, vendor/miuicamera/config.mk)
-
-PRODUCT_SOONG_NAMESPACES += \
-$(LOCAL_PATH) \
-hardware/qcom-caf/sm8150
 
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_BOARD_PLATFORM := sm6150
@@ -37,7 +37,7 @@ TARGET_BOARD_PLATFORM := sm6150
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 
-PRODUCT_NAME := evolution_surya
+PRODUCT_NAME := octavi_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X3 NFC
