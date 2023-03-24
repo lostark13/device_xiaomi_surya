@@ -95,12 +95,6 @@ case "$target" in
     echo "schedutil" > /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor
     echo 4000 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/up_rate_limit_us
     echo 16000 > /sys/devices/system/cpu/cpu6/cpufreq/schedutil/down_rate_limit_us
-	
-	# CPU input boost
-	echo "0:1324800 6:1324800" > /sys/module/cpu_boost/parameters/input_boost_freq
-    echo 100 > /sys/module/cpu_boost/parameters/input_boost_ms
-    echo "0:1804800 6:2169600" > /sys/module/cpu_boost/parameters/powerkey_input_boost_freq
-    echo 500 > /sys/module/cpu_boost/parameters/powerkey_input_boost_ms
 
     # Configure default schedTune value for foreground/top-app
     echo 1 > /dev/stune/foreground/schedtune.prefer_idle
