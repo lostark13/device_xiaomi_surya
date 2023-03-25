@@ -90,8 +90,10 @@
       "Path": "/dev/stune/top-app/schedtune.boost",
       "Values": [
         "40",
-        "10"
+        "10",
+        "0"
       ],
+      "DefaultIndex": 1,
       "ResetOnInit": true
     },
     {
@@ -368,6 +370,12 @@
     {
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMaxFreq",
+      "Duration": 0,
+      "Value": "0"
+    },
+    {
+      "PowerHint": "DISPLAY_INACTIVE",
+      "Node": "TASchedtuneBoost",
       "Duration": 0,
       "Value": "0"
     }
