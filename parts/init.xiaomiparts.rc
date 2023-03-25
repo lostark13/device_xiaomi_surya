@@ -25,7 +25,6 @@ on property:persist.lcd.cabc_mode=*
     write /sys/devices/platform/soc/soc:qcom,dsi-display/cabc ${persist.lcd.cabc_mode}
 
 on property:sys.perf_profile=1
-    write /dev/stune/top-app/schedtune.boost 10
     write /sys/class/kgsl/kgsl-3d0/devfreq/adrenoboost 2
     write /sys/class/kgsl/kgsl-3d0/force_bus_on 1
     write /sys/class/kgsl/kgsl-3d0/force_clk_on 1
@@ -41,7 +40,6 @@ on property:sys.perf_profile=1
     write /sys/module/lpm_levels/parameters/sleep_disabled 1
 
 on property:sys.perf_profile=0
-    write /dev/stune/top-app/schedtune.boost 1
     write /sys/class/kgsl/kgsl-3d0/devfreq/adrenoboost 0
     write /sys/class/kgsl/kgsl-3d0/force_bus_on 0
     write /sys/class/kgsl/kgsl-3d0/force_clk_on 0
