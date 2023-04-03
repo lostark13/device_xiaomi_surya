@@ -24,7 +24,7 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 # Inherit some common Octavi stuff.
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
-WITH_GMS := true
+WITH_GAPPS := true
 OCTAVI_BUILD_TYPE := Official
 OCTAVI_MAINTAINER := Tushar Bharti
 
