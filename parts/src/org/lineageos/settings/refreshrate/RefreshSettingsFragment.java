@@ -313,7 +313,8 @@ public class RefreshSettingsFragment extends PreferenceFragment
             if (entry == null) {
                 return;
             }
-
+            holder.mode.setAdapter(new ModeAdapter(context));
+            holder.mode.setOnItemSelectedListener(this);
             holder.title.setText(entry.label);
             holder.title.setOnClickListener(v -> holder.mode.performClick());
             mApplicationsState.ensureIcon(entry);
