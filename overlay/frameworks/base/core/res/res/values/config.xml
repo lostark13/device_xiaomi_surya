@@ -385,12 +385,6 @@
          turned off and the screen off animation has been performed. -->
     <bool name="config_dozeAfterScreenOffByDefault">true</bool>
 
-    <!-- Doze: should the TYPE_PICK_UP_GESTURE sensor be used as a pulse signal. -->
-    <bool name="config_dozePulsePickup">true</bool>
-
-    <!-- Type of the pickup sensor used when config_dozePulsePickup is enabled. -->
-    <string name="config_dozePickupSensorType" translatable="false">xiaomi.sensor.pickup</string>
-
     <!-- Power Management: Specifies whether to decouple the auto-suspend state of the
          device from the display on/off state.
          When false, autosuspend_disable() will be called before the display is turned on
