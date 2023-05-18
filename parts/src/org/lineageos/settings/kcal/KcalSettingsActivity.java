@@ -10,7 +10,9 @@ import android.view.MenuItem;
 import org.lineageos.settings.R;
 import org.lineageos.settings.Controller;
 
-public class KcalSettingsActivity extends Activity implements Controller {
+import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
+
+public class KcalSettingsActivity extends CollapsingToolbarBaseActivity implements Controller {
 
     private KcalSettings mKcalSettingsFragment;
 
@@ -18,11 +20,11 @@ public class KcalSettingsActivity extends Activity implements Controller {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Fragment fragment = getFragmentManager().findFragmentById(android.R.id.content);
+        Fragment fragment = getFragmentManager().findFragmentById(R.id.content_frame);
         if (fragment == null) {
             mKcalSettingsFragment = new KcalSettings();
             getFragmentManager().beginTransaction()
-                    .add(android.R.id.content, mKcalSettingsFragment)
+                    .add(R.id.content_frame, mKcalSettingsFragment)
                     .commit();
         } else {
             mKcalSettingsFragment = (KcalSettings) fragment;

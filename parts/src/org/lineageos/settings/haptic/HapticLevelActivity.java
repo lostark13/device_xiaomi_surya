@@ -17,9 +17,10 @@
 package org.lineageos.settings.haptic;
 
 import android.os.Bundle;
-import android.preference.PreferenceActivity;
+import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
+import com.android.settingslib.widget.R;
 
-public class HapticLevelActivity extends PreferenceActivity {
+public class HapticLevelActivity extends CollapsingToolbarBaseActivity {
 
     private final String TAG_HAPTIC = "haptic_level";
 
@@ -27,7 +28,7 @@ public class HapticLevelActivity extends PreferenceActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        getFragmentManager().beginTransaction().replace(android.R.id.content,
+        getFragmentManager().beginTransaction().replace(R.id.content_frame,
                 new HapticLevelFragment(), TAG_HAPTIC)
                 .commit();
     }
